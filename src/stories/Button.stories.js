@@ -3,7 +3,10 @@ import Button from "../components/Button"
 export default {
     title: "Components/Button",
     component: Button,
-    argTypes: { handleClick: { action: "handleClick"}},
+    argTypes: { 
+        handleClick: { action: "handleClick"},
+        size: {control: "select"}
+    },
 }
 
 
